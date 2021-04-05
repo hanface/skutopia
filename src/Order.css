@@ -1,0 +1,88 @@
+.order {
+  width: 90%;
+  margin: 1.5rem auto;
+  max-width: 400px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+}
+
+header {
+  padding: 1.2rem 2.2rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.order-bod {
+  padding: 1.7rem;
+}
+
+.order-item,
+.order-quantity,
+.order-bod h5 {
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.order-quantity,
+.order-bod h5,
+.order-bod h4 {
+  padding-bottom: 0.6rem;
+}
+
+.order-quantity {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-quantity a {
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+}
+
+.order-quantity svg {
+  margin-left: 0.5rem;
+}
+
+.order-item {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-item p {
+  margin-bottom: 0;
+}
+
+.order-item img {
+  align-self: flex-start;
+}
+
+.order-item:last-of-type {
+  border-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.quantity-count {
+  width: 25%;
+  align-self: center;
+}
+
+.shipping-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-round {
+  border-radius: 100%;
+  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  font-weight: 500;
+  margin: 0 0.4rem;
+  background-color: #728f9b;
+  color: #fff;
+  cursor: pointer;
+}
